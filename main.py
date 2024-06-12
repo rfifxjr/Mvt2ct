@@ -55,7 +55,7 @@ element.click()
 time.sleep(1.5)
 
 element = browser.find_element(By.XPATH, "//input[@id='register_email']")
-element.send_keys("kosegarov@yandex.ru")
+element.send_keys("chudaikinid21@st.ithub.ru")
 time.sleep(0.5)
 
 element = browser.find_element(By.XPATH, "//input[@id='register_password']")
