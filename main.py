@@ -67,11 +67,11 @@ element.send_keys("123456789")
 time.sleep(0.5)
 
 element = browser.find_element(By.XPATH, "//input[@id='register_firstname']")
-element.send_keys("Andrey")
+element.send_keys("Ilya")
 time.sleep(0.5)
 
 element = browser.find_element(By.XPATH, "//input[@id='register_lastname']")
-element.send_keys("Kochegarov")
+element.send_keys("Chudaikin")
 time.sleep(0.5)
 
 element = browser.find_element(By.XPATH, "//input[@id='register_telephone']")
